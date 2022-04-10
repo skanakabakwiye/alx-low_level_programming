@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *NA 
+ 
  * Return: Always 0 (Success)
  */
 int main(void)
