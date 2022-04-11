@@ -4,8 +4,8 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - assigns a random number to int n
- * it executes the program, and prints n
+ * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
