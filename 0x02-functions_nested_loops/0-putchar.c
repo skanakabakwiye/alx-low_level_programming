@@ -7,8 +7,9 @@
  */
 
 int main (void)
+	
 {
-	aputchar("c");
-	aputchar("\n");
+	aputchar('c');
+	aputchar('\n');
 	return (0);
 }
