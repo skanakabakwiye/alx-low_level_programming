@@ -1,4 +1,4 @@
-int putchar(char c);
+int putchar(char *);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int low(int c);
