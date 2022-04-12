@@ -9,6 +9,6 @@
 
 int main (void)
 {
-	putchar("\n");
+	putchar("END\n")
 	return (0);
 }
