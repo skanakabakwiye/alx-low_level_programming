@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * check code
- * Always return 0
+ * _isdigit - digits 0 to 9
+ *
+ * Returns 1 if c is a digit and 0 otherwise
  */
 int _isdigit(int c)
 {
