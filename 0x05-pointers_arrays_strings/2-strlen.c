@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * main - entry point
- *
+ * int - entry point
+ * @s: character
  * return: 0
  * */
 
-int main (void)
+int _strlen(char *s)
 {
-	char *str;
-	int len = _strlen(char *s);
-	_putchar("length is %zu\n", len);
-	return (0);
+	char s[5]={'a','b','c','d','e'};
+	_putchar("\n")
+
 }
 
