@@ -1,10 +1,13 @@
 #include "main.h"
 /**
- * Swap two integers
- * */
+ *swap_int - Swap two integers
+ * 
+ * variables - *a and *b
+ */
 
 void swap_int(int *a, int *b)
 {
-	*a = *b;
-	*b = *a;
+	int *a = 98;
+	int *b = 42;
+
 }
