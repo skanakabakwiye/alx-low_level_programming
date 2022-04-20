@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - entry point
- * str: variable
+ * @str: variable
  */
 
 void _puts(char *str)
