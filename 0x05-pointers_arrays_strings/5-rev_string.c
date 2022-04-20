@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * reverse a string
- * */
+ * rev_string - reverse a string
+ *@s: character
+ */
 
 void rev_string(char *s)
 {
-	char *s;
-	s = "Reverse string"
-}
+	int n = 7;
+	for (n = 0; s[n] != '\0'; n++)
