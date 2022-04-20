@@ -1,11 +1,14 @@
 #include "main.h"
 /**
- * print string to stdout
- **/
+ * _puts - entry point
+ * str: variable
+ */
 
-int main ()
+void _puts(char *str);
 {
-	char *str;
-	void _puts(char *str);
-	return (0);
+	int i;
+	for (i = 0; str !='\0'; i++);
+	{
+		_putchar("\n");
+	}
 }
