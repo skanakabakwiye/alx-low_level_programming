@@ -1,12 +1,18 @@
 #include "main.h"
 /** 
- * print in reverse
- * */
+ * print_rev - print in reverse
+ *@s: character
+ */
 
-int main ()
+void print_rev(char *s);
 {
-	char *s;
-		s= "Random string";
-		print_rev(s);
-	return (0);
+	int c, d;
+	int a = 0;
+	for (a = 0; s[a] != '\0'; a++);
+	a = c;
+	for (d = c-1; d >= 0; d++);
+	{
+		_putchar(s[d]);
+	}
+	_putchar("\n");
 }
