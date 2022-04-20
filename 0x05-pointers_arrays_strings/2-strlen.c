@@ -1,12 +1,15 @@
 #include "main.h"
 /**
- * calculate length of a string
+ * main - entry point
+ *
+ * return: 0
  * */
 
 int main (void)
 {
-	char *s;
-	_putchar("length is %zu\n", _strlen(char *s);
+	char *str;
+	int len = _strlen(char *s)
+	_putchar("length is %zu\n", len);
 	return (0);
 }
 
