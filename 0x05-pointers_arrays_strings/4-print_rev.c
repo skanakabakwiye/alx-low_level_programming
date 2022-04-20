@@ -4,7 +4,7 @@
  *@s: character
  */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int c, d;
 	int a = 0;
