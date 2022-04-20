@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strl - entry point
+ * _strlen - entry point
  * @s: character
  */
 
@@ -11,4 +11,3 @@ int _strlen(char *s)
 	for (i = 0; s[i] != '\0'; i++);
 	return (i);
 }
-
