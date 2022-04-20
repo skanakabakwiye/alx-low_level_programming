@@ -7,7 +7,7 @@
 
 int main ()
 {
-	char st[5]={'a','b','c','d','e','\0'};
+	char st[5]={'a','b','c','d','\0'};
 	_putchar("length is %d", _strlen(char st));
 	return (0);
 
