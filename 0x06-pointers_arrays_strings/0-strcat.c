@@ -23,3 +23,4 @@ char *_strcat(char *dest, char *src)
 	s[size-1] = '\0';
 
 	return (dest);
+}
