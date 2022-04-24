@@ -6,15 +6,17 @@
  * return: pointer to dest
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-	int s = 0;
-	int i = 0;
-
-	for (int i = 0; dest[i] != '\0'; i++)
+int s = -1, i;
+for (i = 0; dest[i] != '\0'; i++)
 ;
-	for (int s = 0; src[s] != '\0'; s++)
-		dest[i] = src[s];
 
-	return (dest);
+do {
+	s++;
+	dest[i] = src[s];
+	i++;
+} while (src[s] != '\0');
+
+return (dest);
 }
